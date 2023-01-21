@@ -163,13 +163,15 @@
     <ClCompile Include="src\Cell.cpp" />
     <ClCompile Include="src\Grid.cpp" />
     <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\State.cpp" />
+    <ClCompile Include="src\States\Ashes.cpp" />
+    <ClCompile Include="src\States\State.cpp" />
     <ClCompile Include="src\Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Cell.hpp" />
     <ClInclude Include="src\Grid.hpp" />
-    <ClInclude Include="src\State.hpp" />
+    <ClInclude Include="src\States\Ashes.hpp" />
+    <ClInclude Include="src\States\State.hpp" />
     <ClInclude Include="src\Utils.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
